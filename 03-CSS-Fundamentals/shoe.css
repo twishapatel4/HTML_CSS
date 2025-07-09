@@ -1,5 +1,10 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
 body {
-  border: black 5px solid;
+  font-family: sans-serif;
+  /* border: black 5px solid; */
 }
 #header {
   background-color: grey;
@@ -13,6 +18,53 @@ body {
 #shop {
   font-size: 16px;
 }
+.tag {
+  position: absolute;
+  text-transform: uppercase;
+  top: -20px;
+  left: -30px;
+  background-color: black;
+  color: aliceblue;
+  padding: 7px 10px;
+  display: inline-block;
+  letter-spacing: 3px;
+}
+.container {
+  position: relative;
+  margin: 100px 600px;
+  border: 2px black solid;
+  padding: 20px;
+}
+.color {
+  position: relative;
+  display: flex;
+  gap: 10px;
+}
+.color1 {
+  padding: 20px;
+  background-color: red;
+}
+.color2 {
+  padding: 20px;
+  background-color: blue;
+}
+.color3 {
+  padding: 20px;
+  background-color: green;
+}
+.color4 {
+  padding: 20px;
+  background-color: yellow;
+}
+.color5 {
+  padding: 20px;
+  background-color: magenta;
+}
+.color6 {
+  padding: 20px;
+  background-color: aqua;
+}
+
 .more :link {
   color: black;
 }
