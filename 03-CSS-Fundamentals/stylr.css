@@ -7,7 +7,6 @@
 body {
   font-size: 18px;
   font-family: sans-serif;
-  position: relative;
   border-radius: 5px;
 }
 h1,
@@ -33,31 +32,7 @@ h1 {
 h2 {
   font-size: 36px;
   margin-bottom: 30px;
-  /* background-color: aqua; */
-  position: relative;
 }
-h2::after {
-  content: "Top";
-  background-color: #ffe70e;
-  font-size: 16px;
-  font-weight: bold;
-  display: inline-block;
-  padding: 5px;
-  position: absolute;
-  top: -10px;
-  right: -25px;
-  /* margin-right: 0px;
-  margin-top: 0px; */
-}
-/* pseudo classes with one colon and pseudo elements with two colon */
-h1::first-letter {
-  font-style: normal;
-  margin-right: 5px;
-}
-/* p::first-line {
-  color: aqua;
-} */
-
 h3 {
   font-size: 30px;
 }
@@ -78,23 +53,6 @@ h4 {
 .nav {
   padding: 10px;
   margin: 10px;
-}
-.like {
-  display: inline;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 20px;
-  cursor: pointer;
-  position: absolute;
-  top: 50px;
-  left: 50px;
-}
-nav a:link {
-  margin: 30px;
-  display: inline-block;
-}
-nav a:link:last-child {
-  margin-right: 0px;
 }
 p {
   font-size: 18px;
@@ -130,7 +88,6 @@ article header p {
   margin: 20px;
 }
 .container {
-  position: relative;
   margin: 0px auto;
   /* margin-left: auto;
   margin-right: auto; */
@@ -143,7 +100,6 @@ aside {
   /*dotted, dashed*
   border-top,border-left,border-right,border-bottom*/
   width: 500px;
-  display: inline-block;
 }
 li:first-child {
   font-weight: bold;
@@ -183,5 +139,3 @@ a:visited {
 footer p {
   color: greenyellow;
 } */
-
-/*Absolutely positioned elements do not move ffrom their position irrelative of postion of the other elementsss.*/
