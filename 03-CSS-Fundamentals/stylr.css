@@ -1,3 +1,15 @@
+* {
+  font-family: sans-serif;
+  /* border-top: #1098ad solid 5px; */
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+
+  border-radius: 5px;
+}
 h1,
 h2,
 h3,
@@ -12,6 +24,7 @@ h3 {
   color: #1098ad;
 }
 h1 {
+  /* border-top: red 5px solid; */
   color: rgb(55, 161, 161);
   font-size: 22px;
   text-transform: uppercase;
@@ -19,6 +32,7 @@ h1 {
 }
 h2 {
   font-size: 36px;
+  margin-bottom: 30px;
 }
 h3 {
   font-size: 30px;
@@ -29,10 +43,26 @@ h4 {
 }
 .main-h {
   background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin: 10px;
+  margin-bottom: 60px;
+}
+.post-header {
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.nav {
+  padding: 10px;
+  margin: 10px;
 }
 p {
   font-size: 18px;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+ul,
+ol {
+  margin: 50px;
 }
 li {
   font-size: 18px;
@@ -53,11 +83,24 @@ article header p {
 .post {
   list-style: none;
 }
+.post-img {
+  width: 50%;
+  height: auto;
+  margin: 20px;
+}
+.container {
+  margin: 0px auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 900px;
+}
 aside {
+  padding: 50px 0px;
   background-color: #f7f7f7;
   border: black solid 5px;
   /*dotted, dashed*
   border-top,border-left,border-right,border-bottom*/
+  width: 500px;
 }
 li:first-child {
   font-weight: bold;
@@ -88,3 +131,12 @@ a:hover {
 a:visited {
   color: purple;
 }
+/* #copyright {
+  color: red;
+}
+.Copyright {
+  color: blue;
+}
+footer p {
+  color: greenyellow;
+} */
