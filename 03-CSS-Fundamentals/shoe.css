@@ -1,0 +1,38 @@
+body {
+  border: black 5px solid;
+}
+#header {
+  background-color: grey;
+  text-align: center;
+  text-transform: uppercase;
+}
+#price {
+  font-size: 22px;
+  font-style: bold;
+}
+#shop {
+  font-size: 16px;
+}
+.more :link {
+  color: black;
+}
+.more:hover {
+  color: red;
+}
+.details {
+  font-size: 20p;
+  text-align: center;
+}
+.list {
+  list-style: square;
+}
+.cart {
+  background-color: black;
+  color: white;
+  border: none;
+}
+.cart:hover {
+  background-color: white;
+  color: black;
+  border: black solid 2px;
+}
